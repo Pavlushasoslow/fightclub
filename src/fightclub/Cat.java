@@ -1,10 +1,10 @@
 package fightclub;
 
 /**
- Моя очередная попытка вкатиться в погромирование №хрен знает какой
- А здесь у нас коты они царапаются и кусаются.
+ * Моя очередная попытка вкатиться в погромирование №хрен знает какой
+ * А здесь у нас коты они царапаются и кусаются.
  */
-public class cat {
+public class Cat {
     private int hp;  // Это у нас очки здоровья кота.
     private int str; // Это сила кота. Что она делает я пока не знаю. Возможно она будет падать по мере уменьшения хп.
     private int atk; // Это очки атаки кота. Скорее всего они будут константой, взвимодействовть с силой и вычитаться из стамины
@@ -57,11 +57,19 @@ public class cat {
 
     // Конструктор ... ы?
 
-    public cat (int hp, int str, int atk, int def, int stm){
+    public Cat(int hp, int str, int atk, int def, int stm) {
         this.hp = hp;
         this.str = str;
         this.atk = atk;
         this.def = def;
         this.stm = stm;
     }
+
+    // Методы. Удар и блок. ... Стоп! А они тут должны быть? Пусть будут тут. ... Это будут очень странные классы.
+
+    public int Punch(){
+        int aftherpunch = 0;
+        return aftherpunch;
+    }
+
 }
